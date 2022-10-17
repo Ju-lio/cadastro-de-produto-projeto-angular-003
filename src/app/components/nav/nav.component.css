@@ -1,0 +1,5 @@
+nav {
+   width: 250px;
+   height: calc(100vh - 100px);
+   background-color: #A8A483;
+}

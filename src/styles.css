@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+* {
+   font-family: 'Nixie One', cursive;
+   /* font-family: 'Yeseva One', cursive; */
+   color:  #F4F5F5;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #F3F2E1;
+}
+
+.banner {
+   height: 50px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 2.5px 5px;
+}
+
+.logo {
+   font-size: 1.5rem;
+   margin-left: 15px;
+}
+
+.color-dark {
+   background-color: #6E4A8B;
+}
+
+.flex-align{
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+
+.flex {
+   display: flex;
+}
+
+.button {
+   width: 25px;
+   height: 25px;
+   fill: #F4F5F5;
+   margin: 0 15px;
+}
+
+.content {
+   width: calc(100% - 250px - 60px);
+}
