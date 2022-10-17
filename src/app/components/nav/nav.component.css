@@ -1,5 +1,10 @@
+* {
+   outline: none;
+}
+
 nav {
-   width: 250px;
+   width: 20vw;
    height: calc(100vh - 100px);
    background-color: #A8A483;
+   user-select: none;
 }

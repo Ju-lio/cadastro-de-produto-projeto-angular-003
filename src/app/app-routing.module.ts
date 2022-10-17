@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './components/home/home.component';
 import { ModalComponent } from './components/modal/modal.component';
+import { ProductCreateComponent } from './components/product-create/product-create.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'products',
     component: ModalComponent,
+  },
+  {
+    path: 'products/create',
+    component: ProductCreateComponent,
   },
 ];
 

@@ -6,8 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./button.component.css'],
 })
 export class ButtonComponent {
-  @Input() srcIcon?: string;
-  @Input() description?: string;
+  @Input() title?: string;
+  @Input() symbol?: string;
 
   constructor() {}
 }

@@ -1,0 +1,36 @@
+div {
+   display: flex;
+   margin: 15px;
+   background-color: #dad6b3;
+   color: #8339bf;
+   font-weight: bold;
+   align-items: center;
+   border-radius: 5px;
+   width: 200px;
+   height: 50px;
+   user-select: none;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 2.5px 5px;
+}
+
+div:hover {
+   cursor: pointer;
+   color: #926faf;
+}
+div:hover a {
+   background-color: #926faf;
+}
+
+a {
+   background-color: #6E4A8B;
+   color: #6E4A8B;
+   font-weight: bold;
+   font-size: 1.5rem;
+   border-radius: 5px 0 0 5px;
+   width: 50px;
+   height: 50px;
+   margin-right: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   user-select: none;
+}

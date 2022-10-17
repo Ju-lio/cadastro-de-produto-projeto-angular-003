@@ -10,6 +10,8 @@ import { NavComponent } from './components/nav/nav.component';
 import { NavItemComponent } from './components/nav-item/nav-item.component';
 import { HomeComponent } from './components/home/home.component';
 import { ModalComponent } from './components/modal/modal.component';
+import { ProductCreateComponent } from './components/product-create/product-create.component';
+import { SnackbarComponent } from './components/snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { ModalComponent } from './components/modal/modal.component';
     NavItemComponent,
     HomeComponent,
     ModalComponent,
+    ProductCreateComponent,
+    SnackbarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

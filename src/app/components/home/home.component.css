@@ -9,10 +9,16 @@ h2 {
    color: #9c74af;
 }
 
-div {
+.painel {
+   display: flex;
+   justify-content: center;
+   width: 80vw;
+}
+
+.conteudo {
    border-radius: 10px;
    margin: 15px;
    padding: 15px;
-   width: 100%;
+   width: 75vw;
    background-color: rgba(0, 0, 0, 0.10);
 }
